@@ -2,6 +2,7 @@
 *
 
 # Whitelist actual dotfiles config
+!README.md
 !.gitignore
 !.aerospace.toml
 !.tmux.conf
