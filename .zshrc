@@ -97,7 +97,7 @@ export VISUAL='nvim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="eza --color=always --icons=always -a --group-directories-first -s name $argv"
-alias oo="cd \"/Users/casey/documents/Obsidian Vault/\" && nvim ."
+alias oo="cd \"$HOME/documents/Obsidian Vault/\" && nvim ."
 alias zshrc="nvim ~/.zshrc"
 
 
@@ -110,7 +110,7 @@ export NVM_DIR=~/.nvm
 
 eval "$(fzf --zsh)"
 export PATH="$(go env GOPATH)/bin:$PATH"
-export PATH="$PATH:/Users/casey/Projects/admin-cli"
+export PATH="$PATH:$HOME/Projects/admin-cli"
 alias cobra="cobra-cli"
 
 [[ -s "/Users/casey/.gvm/scripts/gvm" ]] && source "/Users/casey/.gvm/scripts/gvm"
