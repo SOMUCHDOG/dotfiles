@@ -1,0 +1,30 @@
+# Ignore everything in home directory by default
+*
+
+# Whitelist actual dotfiles config
+!.gitignore
+!.aerospace.toml
+!.tmux.conf
+!.zprofile
+!.zshenv
+!.zshrc
+!.zshrc.pre-oh-my-zsh
+
+# oh-my-zsh (gitlink)
+!.oh-my-zsh
+
+# tmux plugins (gitlinks) — parent dirs must be un-ignored first
+!.tmux/
+!.tmux/plugins/
+!.tmux/plugins/tmux
+!.tmux/plugins/tpm
+!.tmux/plugins/vim-tmux-navigator
+
+# nvim config — parent dirs must be un-ignored first
+!.config/
+!.config/nvim/
+!.config/nvim/init.lua
+!.config/nvim/lazy-lock.json
+!.config/nvim/lua/
+!.config/nvim/lua/config/
+!.config/nvim/lua/config/lsp.lua
